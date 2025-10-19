@@ -108,3 +108,4 @@ function persist_execute_log {
   } >> cron_change_time
 
 }
+
