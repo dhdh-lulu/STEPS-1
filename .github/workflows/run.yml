@@ -3,10 +3,6 @@ name: 刷步数
 on:
   schedule:
     - cron: '7 4 * * *'   # UTC 04:07 北京时间12:07
-  #  - cron: '23 6 * * *'  # UTC 06:23 北京时间14:23
-    - cron: '45 8 * * *'  # UTC 08:45 北京时间16:45
-  #  - cron: '18 10 * * *' # UTC 10:18 北京时间18:18
-    - cron: '39 12 * * *' # UTC 12:39 北京时间20:39
   workflow_dispatch:
 
 jobs:
